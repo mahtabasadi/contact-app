@@ -1,0 +1,72 @@
+.ListWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.contactList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.listHeader button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #6d28d9;
+    border-radius: 5px;
+}
+
+.item{
+    background-color: #fff;
+    min-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    border: 1px solid#ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.item button {
+      outline: none;
+      cursor: pointer;
+      border:1px solid#dc2626;
+      color: #dc2626;
+      padding: 5px 10px;
+      background-color: #fff;
+      border-radius: 5px;
+}
+
+.item .editeBTN{
+    margin-right: 1rem;
+    outline: none;
+    cursor: pointer;
+    border:1px solid#6d28d9;
+    color: #6d28d9;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.item img {
+    margin-right: 10px;
+    width: 30px;
+}
+
+.Changing_Position_name_email{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
